@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo_header a {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo_header a:hover {
+
+    color: rgb(233, 79, 59);
+    font-size: 25px;
+    transition: 1.5s color ease-in-out;
+}
+
+.logo_header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.logo_header img {
+    height: 50px;
+}
+
+.logo_mario {
+    height: 100px;
+
+}
+
+.mario_luigi {
+    height: 400px;
+}
+
+.caixa_principal {
+    width: 40%;
+}
+
+.quem_somos_txt {
+    color: white;
+}
+
+.button_contato {
+    color: white;
+    background-color: #C51111;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.button_contato:hover {
+    background-color: rgb(3, 175, 3);
+    transition: 0.5s background-color ease-in-out;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa_mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa_video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.whatsapp_link img {
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.formulario_fale_conosco {
+    z-index: 20;
+    background-color: white;
+    display: flex;
+    /*habilita super poderes tipo o GET*/
+    gap: 10px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -20%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.formulario_fale_conosco.aberto {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+.mascara_formulario {
+    z-index: 15;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.9) 85%);
+    opacity: 0;
+    transition: visibility 2s, ease-in-out;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*display: none;*/
+    /*inicia invisível*/
+}
+
+.mascara_formulario.aberta {
+    visibility: visible;
+    opacity: 1;
+}
+
+.enviar_msg {
+    color: white;
+    background-color: #C51111;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.enviar_msg:hover {
+    background-color: rgb(3, 175, 3);
+}
+
+/* Input */
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: #C51111 2px solid;
+    outline: none;
+    /* remove a borda preta padrão */
+    transition: border 0.5s ease-in-out;
+    padding-left: 10px;
+}
+
+input:focus {
+    border: 2px solid rgb(3, 175, 3);
+    /* borda verde ao clicar no campo */
+}
+
+/* Textarea */
+textarea {
+    border-radius: 5px;
+    border: #C51111 2px solid;
+    height: 100px;
+    resize: none;
+    outline: none;
+    transition: border 0.5s ease-in-out;
+    padding-left: 10px;
+}
+
+textarea:focus {
+    border: 2px solid rgb(3, 175, 3);
+}
+
+.fechar_formulario {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #C51111;
+    /* vermelho para combinar */
+    font-weight: bold;
+
+}
+
+.fechar_formulario:hover {
+    color: rgb(3, 175, 3);
+    /* verde ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    p {
+        display: none;
+    }
+
+    .caixa_mae {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .caixa_principal {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mario_luigi {
+        width: 80vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .logo_header img {
+        display: none;
+    }
+
+    .logo_header {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin: 30px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .logo_header a:hover {
+
+        color: rgb(233, 79, 59);
+        font-size: 22px;
+        transition: 1.5s color ease-in-out;
+    }
+}
