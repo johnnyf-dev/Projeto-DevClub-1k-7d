@@ -35,13 +35,13 @@ https://johnnyf-dev.github.io/Projeto-DevClub-1k-7d/
 
 
 📈 Aprendizados
-Estruturação de páginas web (atualização e revisão de conceitos — reciclando conhecimentos já adquiridos).
+- Estruturação de páginas web (atualização e revisão de conceitos — reciclando conhecimentos já adquiridos).
 
-Prática de JavaScript para manipulação de elementos e lógica de interação.
+- Prática de JavaScript para manipulação de elementos e lógica de interação.
 
-Desenvolvimento de responsividade com CSS adaptado para celulares e dispositivos móveis.
+- Desenvolvimento de responsividade com CSS adaptado para celulares e dispositivos móveis.
 
-Organização de múltiplas páginas e reaproveitamento de estilos.
+- Organização de múltiplas páginas e reaproveitamento de estilos.
 
 🔮 Próximos passos
 
