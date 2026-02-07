@@ -24,6 +24,7 @@ Pagina Inicial:
 ![Imagem da Home Page em Computador] (./img/screens/home-pc.png)
 ![Imagem da Home Page em celular] (.img/screens/home-pc.png)
 
+
 ## 📌 Como executar
 1. Clone este repositório:
    ```bash
@@ -31,6 +32,7 @@ Pagina Inicial:
 Abra o projeto com Live Server ou diretamente no navegador.
 Ou acessar:
 https://johnnyf-dev.github.io/Projeto-DevClub-1k-7d/
+
 
 📈 Aprendizados
 Estruturação de páginas web (atualização e revisão de conceitos — reciclando conhecimentos já adquiridos).
@@ -42,6 +44,7 @@ Desenvolvimento de responsividade com CSS adaptado para celulares e dispositivos
 Organização de múltiplas páginas e reaproveitamento de estilos.
 
 🔮 Próximos passos
+
 ✅ Publicar o site online (GitHub Pages, Netlify ou Vercel).
 
 ✅ Evoluir o projeto com novas funcionalidades e melhorias contínuas.
