@@ -20,9 +20,10 @@ Este projeto foi criado para praticar fundamentos de desenvolvimento web e servi
 - Navegação entre páginas (Home, Nossos Serviços, Fale Conosco).
 
 ## 📸 Demonstração
-Pagina Inicial:
-![Imagem da Home Page em Computador] (./img/screens/home-pc.png)
-![Imagem da Home Page em celular] (.img/screens/home-pc.png)
+Página Inicial:
+![Imagem da Home Page em Computador](./img/screens/home-pc.png)  
+![Imagem da Home Page em celular](./img/screens/home-cel.png)
+
 
 
 ## 📌 Como executar
