@@ -216,6 +216,79 @@ textarea:focus {
     /* verde ao passar o mouse */
 }
 
+/* PORTIFOLIO INICIO*/
+footer {
+    text-align: center;
+    
+    background-color: #f1f1f1;
+    /* cor de fundo leve */
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    /* ou fixed se quiser sempre visível */
+    bottom: 0;
+    width: 100%;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.portfolio {
+    color: white;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_header_portifolio {
+    display: flex;
+    align-items: left;   /* alinha verticalmente os itens */
+    
+    margin-top: 0;         /* remove o espaço extra do topo */
+    padding: 5px;         /* opcional: dá um respiro interno */
+}
+.logo_header_portifolio a {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: flex-start;
+    align-items: left;
+}
+
+.mario_portifolio {
+    max-width: 100px;
+    max-height: 40px;
+    height: auto;
+    width: auto;
+}
+
+
+.portfolio-item {
+    margin: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.mario_portifolio a {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.whatsapp_link_portifolio img {
+    height: 60px;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    
+
+}
+
 @media (max-width: 768px) {
     p {
         display: none;
